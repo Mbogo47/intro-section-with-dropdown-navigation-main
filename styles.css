@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    justify-content: flex-start;
+    position: fixed;
+    color: hsl(0, 0%, 41%);
+}
+
+.registration{
+    float: right;
+}
+
+body{
+    Font-size : 18px
+}
+
+.registration {
+    gap: 10px;
+    display: flex;
+    float: right;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.login{
+    margin-top: 10px;
+}
+
+.reg{
+    margin: 0;
+    color: hsl(0, 0%, 41%);
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+}
+
+.body{
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+}
+.make{
+    font-size: 70px;
+}
+.title{
+    float: right;
+}
+.title h2{
+    padding: 30px;
+    font-size: 30px;
+    color: hsl(0, 0%, 41%);
+
+}
+.title p{
+    color: hsl(0, 0%, 41%);
+}
+ 
+.body h2{
+    color: black;
+    font-size: 80;
+}
+
+.learn{
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    margin: 30px;
+    color: hsl(0, 0%, 98%);
+}
+
+.body .b-image{
+    height: 50%;
+    object-fit: contain;
+    width: 25rem;
+    padding: 20px;
+    justify-content: flex-end;
+    padding-right: 10px;
+    float: right;
+    /* padding-left: 100px; */
+}
+
+.svg{
+    align-items: center;
+    justify-content: space-around;
+    text-transform: center;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
